@@ -1,5 +1,5 @@
 #include "operacije.h"
-
+#include <stdio.h>
 
 double saberi(double a, double b)
 {
@@ -23,7 +23,7 @@ double podijeli(double a, double b)
 {
     if (b==0){
     printf ("Nemoguce dijeljenje sa nulom!!11!!\n");
-        return;
+    return;
     } else
     return a/b;
 }
